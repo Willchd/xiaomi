@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的购物车-小米商城</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./font/font_2606074_5m55sgd4kqb/iconfont.css">
+    <link rel="stylesheet" href="./css/shoppingcar 2.2.css">
+</head>
+
+<body>
+    <!-- 购物车头部开始 -->
+    <div class="header">
+        <div class="container clearfix ">
+            <div class="header-logo">
+                <a href="//www.mi.com/index.html" title="小米官网"><img src="./imges/xiaomiicon/logo.png" alt=""></a>
+            </div>
+            <div class="header-title">
+                <h2>
+                    我的购物车
+                </h2>
+                <p> 温馨提示 : 产品是否购买成功，以最终下单为准哦，请尽快结算 </p>
+            </div>
+
+            <div class="topbar ">
+                <div class="topbar-box">
+                    <a href=""><span class="username">wilson</span><i class="iconfont">&#xe6bb;</i></a>
+                </div>
+                <span>|</span>
+                <a href="" class="order">我的订单</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="content">
+        <div class="container">
+        <div class="content-c">
+          
+            <!--信息项目 -->
+            <div class="content-title">
+                <ul class="content-title1">
+                    <li><input type="checkbox" name="all1" class="inp"><span>全选</span></li>
+                    <li>商品信息</li>
+                </ul>
+                <ul class="content-title2">
+                    <li>单价（元）</li>
+                    <li>数量</li>
+                    <li>金额（元）</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <!-- 商品信息 -->
+            <div class="content-shops">
+                <ul class="content-shop">
+                    <li><input type="checkbox" name="checked"></li>
+                    <li>
+                        <img src="./imges/xiaomipic/pic1.png">
+                        <p>小米11 青春版</p>
+                    </li>
+                    <li>
+                        <span>￥</span>
+                        <span>2299.00</span>
+                    </li>
+                    <li>
+                        <button>-</button>
+                        <button>1</button>
+                        <button>+</button>
+                    </li>
+                    <li>
+                        <span>￥</span>
+                        <span>2299.00</span>
+                    </li>
+                    <li>
+                      
+                        <button>删除</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- 金额结算 -->
+            <div class="content-floor">
+                <ul class="content-floor1">
+                    <li><input type="checkbox" name="all2" id="inp1">全选</li>
+                    <li>批量删除</li>
+                    <li>已选择<span>0</span>件商品</li>
+                </ul>
+                <ul class="content-floor2">
+                    <li>
+                        <p>总计（不含运费）：<span>￥</span><span>0.00</span></p>
+                        <p>已节省0.00元</p>
+                    </li>
+                    <li>结算</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 商品列表 -->
+    <div class="goods">
+        <div class="goods-c">
+            <div class="goods-move1">
+                <ul class="goods-lis">
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic1.png">
+                        <p>小米11 Ultra</p>
+                        <p><span>￥</span>
+                        <span>5499</span></p>
+                        <p>5.6万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic2.png">
+                        <p>小米11 Ultra素皮保护壳</p>
+                        <p><span>￥</span>
+                        <span>149.00</span></p>
+                        <p>2.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic3.png">
+                        <p>小米11</p>
+                        <p><span>￥</span>
+                        <span>7660</span></p>
+                        <p>12.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic4.png">
+                        <p>小米10</p>
+                        <p><span>￥</span>
+                        <span>5660</span></p>
+                        <p>22.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic5.png">
+                        <p>小米9青春版</p>
+                        <p><span>￥</span>
+                        <span>899</span></p>
+                        <p>2.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic6.png">
+                        <p>小米10青春版</p>
+                        <p><span>￥</span>
+                        <span>2660</span></p>
+                        <p>0.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic7.png">
+                        <p>Redmi note10</p>
+                        <p><span>￥</span>
+                        <span>19999</span></p>
+                        <p>0.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic8.png">
+                        <p>Redmi note10 pro</p>
+                        <p><span>￥</span>
+                        <span>9660</span></p>
+                        <p>0.2万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic9.png">
+                        <p>小米8青春版</p>
+                        <p><span>￥</span>
+                        <span>660</span></p>
+                        <p>0.3万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic10.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>7260</span></p>
+                        <p>0.8万人好评</p>
+                        <div>购买</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="goods-move2">
+                <ul class="goods-lis">
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic9.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>100.60</span></p>
+                        <p>0.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic10.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>88.60</span></p>
+                        <p>99.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic8.png">
+                        <p>小米5</p>
+                        <p><span>￥</span>
+                        <span>99.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic7.png">
+                        <p>小米5</p>
+                        <p><span>￥</span>
+                        <span>98.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic6.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>57.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic5.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>48.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic4.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>26.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic3.png">
+                        <p>小米6</p>
+                        <p><span>￥</span>
+                        <span>66.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic2.png">
+                        <p>小米8</p>
+                        <p><span>￥</span>
+                        <span>86.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                    <li class="goods-li">
+                        <img src="./imges/xiaomipic/pic1.png">
+                        <p>小米8</p>
+                        <p><span>￥</span>
+                        <span>96.60</span></p>
+                        <p>9.9万人好评</p>
+                        <div>购买</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="remove-l" name="re-l">
+                <img src="./imges/images/anniu.PNG">
+            </div>
+            <div class="remove-r" name="re-r">
+                <img src="./imges/images/anniu2.PNG">
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="site-footer">
+        <div class="container ">
+        <div class="footer-serive">
+            <ul>
+                <li style="border-left: 0;"><a href=""><i class="iconfont icon-buoumaotubiao46"></i><em>预约维修服务</em></a></li>
+                <li><a href="./details.html"><i class="iconfont icon-qitianwuliyoutuihuan"></i><em>7天无理由退货</em></a></li>
+                <li><a href="./details.html"> <i class="iconfont icon-15tianwuliyoutuihuo"></i><em>15天免费换货</em></a></li>
+                <li><a href="./details.html"><i class="iconfont icon-liwu"></i><em>满69包邮</em></a></li>
+                <li><a href="./details.html"> <i class="iconfont icon-dingwei"></i><em>520余家售后晚点</em></a></li>
+            </ul>
+        </div>
+        <div class="footer-link">
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl class="footer-list">
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+
+            <div class="contact">
+                <img src="./imges/images/contact_03.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+       <!-- 底部导航结束 -->
+       <div class="footer">
+        <div class="main">
+            <div class="foot-logo">
+                <img src="./imges/xiaomiicon/logo.png" alt="">
+            </div>
+            <div class="text">
+                <p class="textlist">
+                    <a href="">小米商城</a><span>|</span>
+                    <a href="">MIUI</a><span>|</span>
+                    <a href="">米家</a><span>|</span>
+                    <a href="">米聊</a><span>|</span>
+                    <a href="">多看</a><span>|</span>
+                    <a href="">游戏</a><span>|</span>
+                    <a href="">政企服务</a><span>|</span>
+                    <a href="">小米天猫店</a><span>|</span>
+                    <a href="">小米商城隐私政策</a><span>|</span>
+                    <a href="">小米公司儿童信息保护规则</a><span>|</span>
+                    <a href="">小米商城隐私政策</a><span>|</span>
+                    <a href="">小米商城用户协议</a><span>|</span>
+                    <a href="">问题反馈</a><span>|</span>
+                    <a href="">SelectLocation</a><span>|</span>
+                </p>
+                <p class="sites">
+                    <a href="">北京互联网法院法律服务工作站</a><span>|</span>
+                    <a href="">中国消费者协会</a><span>|</span>
+                    <a href="">北京市消费者协会</a>
+                </p>
+
+
+                <p>&copy;
+                    <a href="">mi.com</a>京ICP证110507号
+                    <a href="">京ICP备10046444号</a>
+                    <a href="">京公网安备11010802020134号</a>
+                    <a href="">京网文[2020]0276-042号</a>
+                    <br>
+                    <a href="">（京）网械平台备字（2018）第00005号</a>
+                    <a href="">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+                    <a href="">营业执照</a>
+                    <a href="">医疗器械质量公告</a>
+                    <br>
+                    <a href="">增值电信业务许可证</a>&nbsp;网络食品经营备案 京食药网食备202010048 &nbsp;
+                    <a href="">食品经营许可证</a>
+                    <br>
+                    违法和不良信息举报电话：171-5104-4404&nbsp;<a href='https://www.mi.com/intellectual'
+                        target="_blank">知识产权侵权投诉</a>&nbsp;本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
+
+
+            </div>
+
+
+            <div class="info-links">
+                <a rel="nofollow"
+                    href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&lang=zh-cn"
+                    target="_blank">
+                    <img rel="nofollow" src="./imges/xiaomiicon/foot1.png" alt="TRUSTe Privacy Certification" />
+                </a>
+                <a rel="nofollow" href="//search.szfw.org/cert/l/CX20120926001783002010" target="_blank">
+                    <img rel="nofollow" src="./imges/xiaomiicon/foot2.png" alt="诚信网站" />
+                </a>
+                <a id="_xinchacharenzheng_cert_vip_kexinweb" rel="nofollow"
+                    href="//xyt.xinchacha.com/pcinfo?sn=523009637759455232&certType=6" target="_blank">
+                    <img rel="nofollow" src="./imges/xiaomiicon/foot3.png" alt="可信网站" />
+                </a>
+                <a rel="nofollow" href="//www.mi.com/service/buy/commitment/" target="_blank">
+                    <img rel="nofollow" src="./imges/xiaomiicon/foot4.png" alt="诚信经营 放心消费" />
+                </a>
+            </div>
+            <div class="slogan ir">探索黑科技，小米为发烧而生</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+   
+
+</body>
+
+</html>
+<script src="./js/test.js"></script>

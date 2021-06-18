@@ -1,0 +1,309 @@
+.pic {
+    float: left;
+    height: 100%;
+    width: 375px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-header {
+    float: right;
+    width: 974px;
+    height: 80px;
+
+}
+
+.header-lt {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 26px;
+
+    margin: 20px 0;
+}
+
+.header-lt>.icon {
+    margin: 0 10px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-gt {
+    float: left;
+}
+
+.header-gt ul,
+li {
+    float: left;
+}
+
+.header-gt ul {
+    margin-top: 20px;
+}
+
+.header-gt li {
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header-gt li a {
+    color: #838383;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-gt li span {
+    color: #838383;
+}
+
+.header-gt li a:hover {
+    color: orange;
+}
+
+.login {
+
+
+    height: 705px;
+    width: 974px;
+
+    float: right;
+}
+
+.login .card {
+    width: 450px;
+    height: 600px;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 20px 50px 0;
+    padding: 40px 45px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+.card .switch {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -22px;
+    right: -22px;
+    opacity: 0.4;
+    border-style: solid;
+    border-width: 32px;
+    background-size: cover;
+    transition: all 0.3s cubic-bezier(.645, .045, .355, 1);
+    ;
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.switch>.iconfont {
+    font-size: 48px;
+
+}
+
+.card .dlzc>a:nth-child(1) {
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+   
+}
+
+.card .dlzc>a:nth-child(2) {
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 10px;
+    border-bottom: 4px solid #ff5c00;
+    border-radius: 2px;
+}
+
+.login .ipt {
+    margin: 20px 0 10px;
+
+}
+
+.ipt .nation{
+  height: 60px;
+  
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  position: relative;
+  background: #f9f9f9 ;
+  
+}
+.nation>.box1{
+    font-size: 14px;
+    color: #aaa;
+    padding: 10px;
+    width: 90px;
+    float: left;
+    
+}
+.nation>.box2{
+    color:#6c6c6c;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 90px;    
+}
+.nation>span{
+   position: absolute;
+   top:27px;
+   right:27px;
+}
+.nation>.iconfont{
+    color: #b1b1b1;
+}
+.ipt .phonenum{
+    height: 60px;
+    background: #f9f9f9 ;
+    margin-top: 20px;
+    position: relative;
+
+}
+.phonenum>.box1{
+    font-size: 14px;
+    color: #aaa;
+    padding: 10px;
+    width: 90px;
+    float: left;
+    
+}
+.phonenum>.box2{
+    color:#6c6c6c;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 90px;    
+}
+.phonenum>span{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+.phonenum>.iconfont{
+    color:#b1b1b1;
+}
+.phonenum>input{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+  border: 0;
+  background: #f9f9f9 ;
+}
+
+.yanzheng{
+    height: 60px;
+    width: 100%;
+    background: #f9f9f9 ;
+    margin-top:20px;
+    color: #333;
+    font-size: 17px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.yanzheng p{
+    float: left;
+    padding-left: 20px;
+}
+.yanzheng span{
+    float: right;
+    padding-right: 10px;
+    color: #ff7129;
+    font-size: 14px;
+}
+.ipt button{
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 10px;
+    background-color: #ff5c00;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.ipt2 .mi-input{
+    width: 100%;
+    height: 60px;
+    padding: 30px 20px 10px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 17px;
+    color: #333;
+    font-family: inherit;
+    line-height: 20px;
+    background: #f9f9f9 ;
+    margin-top: 15px;
+
+}
+
+#password{
+    margin-top: 20px;
+}
+.yz {
+    height: 35px;
+    margin: 20px 0 10px;
+    width: 100%;
+}
+
+.yz .yz-left {
+    font-size: 17px;
+    color: #ff5c00;
+    float: left;
+}
+
+.yz-item{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color:#aaa;
+    font-weight: 400;
+    margin-left: 20px;
+
+    
+
+}
+
+
+.login-title {
+    text-align: center;
+    color: #aaa;
+    font-size: 17px;
+    line-height: 40px;
+
+    font-weight: 400;
+}
+
+.login-app {
+    width: 100%;
+
+}
+
+.login-app>ul {
+    margin-top: 10px;
+    height: 46px;
+}
+
+.login-app>ul>li {
+    margin: 0 19px;
+    text-align: center;
+}
+
+.copyright {
+    width: 974px;
+    color: #999;
+    text-align: center;
+    margin-top: 150px;
+}
